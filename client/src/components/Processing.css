@@ -1,0 +1,21 @@
+.processing-modal-wrapper{
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 14%;
+    z-index: 30;
+    background-color: var(--fourth-color);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rotate-wrapper{
+    height: 100px;
+    width: 100px;
+    
+}

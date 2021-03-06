@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color); 
+    border-radius: 5px;
+}
+
+  
+.html {
+    position: relative;
+}
+:root{
+    --primary-color:#557571;
+    --secondary-color:#d49a89;
+    --third-color:#f7d1ba;
+    --fourth-color:#f4f4f4;
+}

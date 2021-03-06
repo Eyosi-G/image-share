@@ -1,0 +1,18 @@
+.navbar-container{
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlist-container{
+    margin-right: 20px;
+}
+.navlist-container li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.navlist-container a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}

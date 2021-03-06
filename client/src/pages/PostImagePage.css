@@ -1,0 +1,59 @@
+.form-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.image-preview img{
+    width: 100%;
+
+}
+.form-wrapper {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.pick-image {
+    width: 100%;
+    height: 150px;
+    padding: 20%;
+    border: 1px solid;
+    text-align: center;
+}
+.default-file-picker {
+    display: none;
+}
+.custom-file-picker-container {
+    text-align: start;
+}
+.custom-file-picker {
+    padding: 10px;
+    margin: 10px 0px;
+    color: var(--fourth-color);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border: none;
+    outline: none
+}
+
+.caption-wrapper textarea {
+    width: 100%;
+    height: 70px;
+    resize: none;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.submit-button-wrapper {
+    text-align: end;
+}
+.submit-button {
+    padding: 10px;
+    color: var(--fourth-color);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    border: none;
+    outline: none
+}
